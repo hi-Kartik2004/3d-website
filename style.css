@@ -1,8 +1,3 @@
-/* Generated on: Tue Dec 06 2022 13:53:38 GMT+0000 (Coordinated Universal Time) */
-/* ==========================================================================
-   normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
-   ========================================================================== */
-/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -2277,6 +2272,78 @@ textarea.w-select {
   height: 850px;
 }
 
+@media screen and (max-width: 767px) {
+  .grid {
+    justify-items: center;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  .left-grid-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .heading {
+    padding-right: 28px;
+    padding-left: 28px;
+    font-size: 40px;
+  }
+
+  .paragraph {
+    margin-top: 10px;
+    padding-right: 27px;
+    padding-left: 32px;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+  }
+
+  .button-3 {
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+
+  .div-block-4 {
+    width: 300px;
+    height: 300px;
+  }
+
+  .circle {
+    width: 100px;
+    height: 100px;
+    opacity: 1;
+  }
+
+  .circle.circle2.circle-3 {
+    width: 100px;
+    height: 100px;
+    margin-bottom: -100px;
+    border-radius: 20px;
+  }
+
+  .circle.circle-4 {
+    opacity: 1;
+  }
+
+  .hero-section-wrapper {
+    height: 750px;
+  }
+}
+
 #w-node-d979b7e0-ab77-2c4a-5b17-c35b05eff3a4-af18a150 {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
@@ -2290,4 +2357,22 @@ textarea.w-select {
   justify-self: start;
   -ms-grid-row-align: auto;
   align-self: auto;
+}
+
+@media screen and (max-width: 767px) {
+  #w-node-d979b7e0-ab77-2c4a-5b17-c35b05eff3a4-af18a150 {
+    -ms-grid-column-align: center;
+    justify-self: center;
+  }
+
+  #w-node-_2689d7bd-639b-47b1-b210-6f7339a1cdaf-af18a150 {
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 1;
+    grid-column-start: span 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: span 1;
+  }
 }
